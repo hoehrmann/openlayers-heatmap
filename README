@@ -1,0 +1,16 @@
+Name
+
+  OpenLayers Heatmap Layer (using <canvas>)
+
+Synopsis
+
+  var heat = new Heatmap.Layer("Heatmap");
+  heat.addSource(new Heatmap.Source(new OpenLayers.LonLat(9.434, 54.740)));
+  heat.addSource(new Heatmap.Source(new OpenLayers.LonLat(9.833, 54.219)));
+  ...
+  map.addLayer(heat);
+  map.zoomToExtent(heat.getDataExtent());
+
+Live Example
+
+  http://www.websitedev.de/temp/openlayers-heatmap-layer.html
