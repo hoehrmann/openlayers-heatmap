@@ -14,3 +14,8 @@ Synopsis
 Live Example
 
   http://www.websitedev.de/temp/openlayers-heatmap-layer.html
+
+Bugs
+
+  https://github.com/openlayers/openlayers/issues/534 is an OpenLayers bug.
+  To work around it, call, e.g., map.moveTo(1,1) before map.addLayer(heat).
